@@ -1,22 +1,9 @@
-﻿using iText.Kernel.Pdf;
-using iText.Layout;
-using iText.Layout.Element;
-
-class Program
+﻿
+public static partial class Program
 {
-  static void Main(string[] args)
+  static void Main()
   {
-    // 新しいPDF文書を作成
-    PdfDocument pdfDoc = new(new PdfWriter("HelloWorld.pdf"));
+    HelloWorld();
 
-    // ページを作成
-    Document doc = new(pdfDoc);
-
-    // テキストを追加
-    Paragraph para = new("Hello, World!");
-    doc.Add(para);
-
-    // 文書をクローズ
-    doc.Close();
   }
 }
