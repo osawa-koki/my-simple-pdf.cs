@@ -10,5 +10,6 @@ public static partial class Program
     Size();
     List();
     Form();
+    Replace();
   }
 }
