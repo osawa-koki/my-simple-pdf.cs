@@ -9,5 +9,6 @@ public static partial class Program
     Image();
     Size();
     List();
+    Form();
   }
 }
