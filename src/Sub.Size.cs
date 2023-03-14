@@ -1,8 +1,6 @@
-﻿using iText.IO.Image;
-using iText.Kernel.Geom;
+﻿using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using iText.Layout;
-using iText.Layout.Element;
 
 public static partial class Program
 {
