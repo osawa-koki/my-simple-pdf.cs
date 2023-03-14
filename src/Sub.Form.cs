@@ -2,6 +2,8 @@
 using iText.Kernel.Pdf;
 using iText.Forms;
 using iText.Forms.Fields;
+using iText.Kernel.Colors;
+using iText.Kernel.Pdf.Colorspace;
 
 public static partial class Program
 {
@@ -19,6 +21,9 @@ public static partial class Program
       PdfAcroForm form = PdfAcroForm.GetAcroForm(pdfDoc, true);
       PdfTextFormField field = PdfFormField.CreateText(pdfDoc, new Rectangle(100, 700, 100, 20), "field_name", "");
       form.AddField(field);
+
+      // フォームフィールドの背景色をなくす
+      field.SetBackgroundColor(DeviceRgb.WHITE);
 
       // ドキュメントを閉じる
       pdfDoc.Close();
