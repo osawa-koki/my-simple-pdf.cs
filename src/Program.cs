@@ -7,5 +7,6 @@ public static partial class Program
     Table();
     ComplexTable();
     Image();
+    Size();
   }
 }
