@@ -11,5 +11,6 @@ public static partial class Program
     List();
     Form();
     Replace();
+    HelloJapanese();
   }
 }
