@@ -6,5 +6,6 @@ public static partial class Program
     HelloWorld();
     Table();
     ComplexTable();
+    Image();
   }
 }
