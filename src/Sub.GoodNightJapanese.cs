@@ -1,7 +1,6 @@
 ﻿using iText.IO.Font;
 using iText.Kernel.Font;
 using iText.Kernel.Pdf;
-using iText.Kernel.XMP;
 using iText.Layout;
 using iText.Layout.Element;
 
