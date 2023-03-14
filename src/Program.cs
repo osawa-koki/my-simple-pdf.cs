@@ -8,5 +8,6 @@ public static partial class Program
     ComplexTable();
     Image();
     Size();
+    List();
   }
 }
